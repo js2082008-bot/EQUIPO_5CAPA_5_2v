@@ -1,1 +1,0 @@
-# EQUIPO_5CAPA_5_2v
