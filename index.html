@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="js/script.js" defer></script>
+<link rel="stylesheet" href="css/estilos.css">
+<header class="encabezado" id="inicio">
+  
+    <div class="logo">
+        <img src="img/logo (2).png " alt="Logo ICKW">
+
+    </div>
+
+    <a> ICKW SMART CAMPUS </a>
+    
+    <nav id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="#modelo">Modelo OSI</a>
+        <a href="capa-5.html">Capa 5</a>
+        <a href="novedad.html">Novedades V2</a>
+        <a href="#fuentes">Fuentes</a>
+        
+
+    </nav>
+</header>
+
+<main>
+  
+<section class="portada-osi">
+
+    <div class="texto-portada">
+        <h1>El viaje de los datos a través del modelo OSI</h1>
+
+        <p>
+            Bienvenido a nuestro portal educativo. Aprende cómo se
+            comunican los dispositivos y descubre la función de la
+            Capa 5, encargada de la sesión.
+        </p>
+
+        <div class="botones-portada">
+            <a href="capa-5.html" class="boton">
+                Explorar Capa 5
+            </a>
+
+            <a href="#modelo" class="boton boton-secundario">
+                Explorar modelo OSI
+            </a>
+        </div>
+
+        <h2>Gestión de la comunicación</h2>
+        <p>Aplicación A ⇄ Aplicación B</p>
+        <p>CONECTAR · COMUNICAR · FINALIZAR</p>
+    </div>
+
+    <div class="diagrama-portada">
+        <div class="panel-osi">
+            <h3 class="titulo-osi">
+                MODELO OSI 
+            </h3>
+
+            <div class="lista-osi">
+                <div class="fila-osi">
+                    <span class="numero">7</span>
+                    <span>Aplicación</span>
+                </div>
+                <div class="fila-osi">
+                    <span class="numero">6</span>
+                    <span>Presentación</span>
+                </div>
+                <div class="fila-osi activa">
+                    <span class="numero">5</span>
+                    <span>Sesión</span>
+                </div>
+                <div class="fila-osi">
+                    <span class="numero">4</span>
+                    <span>Transporte</span>
+                </div>
+                <div class="fila-osi">
+                    <span class="numero">3</span>
+                    <span>Red</span>
+                </div>
+                <div class="fila-osi">
+                    <span class="numero">2</span>
+                    <span>Enlace</span>
+                </div>
+                <div class="fila-osi">
+                    <span class="numero">1</span>
+                    <span>Física</span>
+                </div>
+            </div>
+
+            <div class="pie-osi">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+  
+<section class="seccion" id="modelo">
+    <h2>Explora el modelo <span>OSI</span></h2>
+
+    <p class="intro">
+        Selecciona una capa para conocer su función.
+        La Capa 5 está resaltada porque es el tema de nuestro equipo.
+    </p>
+
+    <div class="capas">
+        <button class="capa" data-info="Ofrece servicios de red a las aplicaciones.">
+            <b>7</b> Aplicación
+        </button>
+
+        <button class="capa" data-info="Prepara, transforma y representa los datos.">
+            <b>6</b> Presentación
+        </button>
+
+        <button class="capa activa" data-info="Establece, administra y finaliza las sesiones de comunicación entre aplicaciones.">
+            <b>5</b> Sesión
+        </button>
+
+        <button class="capa" data-info="Permite la comunicación entre dispositivos y controla la entrega de datos.">
+            <b>4</b> Transporte
+        </button>
+
+        <button class="capa" data-info="Se encarga del direccionamiento y la ruta de los paquetes.">
+            <b>3</b> Red
+        </button>
+
+        <button class="capa" data-info="Organiza los datos en tramas y gestiona la comunicación local.">
+            <b>2</b> Enlace de datos
+        </button>
+
+        <button class="capa" data-info="Transmite los bits mediante señales físicas.">
+            <b>1</b> Física
+        </button>
+    </div>
+
+    <div class="resultado" id="resultado" aria-live="polite">
+        <h3>Capa 5 — Sesión</h3>
+        <p>Establece, administra y finaliza las sesiones de comunicación entre aplicaciones.</p>
+    </div>
+        <img class="imagen-osi" src="img/Diagrama modelo OSI.png"
+             alt="Diagrama de las siete capas del modelo OSI con la Capa 5 resaltada"
+             title="Modelo OSI: Capa 5 Sesión">
+    </section>
+
+<!-- RECURSOS DEL PORTAL -->
+<section class="seccion fondo" id="recursos">
+    <h2>Recursos para <span>aprender</span></h2>
+
+    <p class="intro">
+        Utiliza estos recursos para comprender mejor el modelo OSI
+        y reforzar lo aprendido en clase.
+    </p>
+
+    <div class="tarjetas">
+        <article class="tarjeta">
+            <div class="icono">📘</div>
+            <h3>Guía del modelo OSI</h3>
+            <p>
+                Aprende qué función cumple cada una de las siete capas
+                y cómo se relacionan entre sí.
+            </p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="icono">🖥️</div>
+            <h3>Explorador interactivo</h3>
+            <p>
+                Selecciona las capas del modelo para consultar
+                una explicación breve de cada una.
+            </p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="icono">🎓</div>
+            <h3>Proyecto educativo</h3>
+            <p>
+                Conoce el trabajo del Equipo 5 y su aporte
+                al portal ICKW Smart Campus.
+            </p>
+        </article>
+    </div>
+</section>
+
+
+    <section class="seccion">
+        <h2>Relación entre las siete capas</h2>
+        <p class="intro">
+            Cada capa cumple una función dentro del modelo y se relaciona
+            con las demás para explicar la comunicación de datos.
+        </p>
+
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Capa</th>
+                        <th>Función principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>7</td><td>Aplicación</td><td>Servicios de red para aplicaciones.</td></tr>
+                    <tr><td>6</td><td>Presentación</td><td>Representación de los datos.</td></tr>
+                    <tr class="fila-destacada"><td>5</td><td>Sesión</td><td>Organización del diálogo entre aplicaciones.</td></tr>
+                    <tr><td>4</td><td>Transporte</td><td>Comunicación entre extremos.</td></tr>
+                    <tr><td>3</td><td>Red</td><td>Direccionamiento y rutas.</td></tr>
+                    <tr><td>2</td><td>Enlace de datos</td><td>Tramas y enlace local.</td></tr>
+                    <tr><td>1</td><td>Física</td><td>Señales y medios de transmisión.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="seccion fondo" id="fuentes">
+        <h2>Fuentes consultadas</h2>
+        <ul class="lista-fuentes">
+            <li>
+                <a href="https://www.iso.org/" target="_blank" rel="noopener noreferrer">
+                    ISO — Organización Internacional de Normalización
+                </a>
+            </li>
+            <li>
+                <a href="https://www.ibm.com/docs/en/aix/7.2.0?topic=protocols-osi-reference-model"
+                   target="_blank" rel="noopener noreferrer">
+                    IBM Documentation — Modelo de referencia OSI
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/"
+                   target="_blank" rel="noopener noreferrer">
+                    Cloudflare — Modelo OSI
+                </a>
+            </li>
+        </ul>
+        <a class="boton" href="novedad.html">Ver novedades de la segunda versión</a>
+    </section>
+</main>
+
+
+<footer class="pie-pagina">
+    <div class="pie-contenido">
+        <div class="pie-marca">
+            <h2>ICKW SMART CAMPUS</h2>
+            <p>El viaje de los datos a través del modelo OSI</p>
+        </div>
+
+        <div class="pie-institucion">
+            <h3>Nuestra institución</h3>
+            <p>Instituto Católico Karol Wojtyla</p>
+            <p>Segundo Año de Bachillerato Técnico en Desarrollo de Software</p>
+        </div>
+
+        <div class="pie-proyecto">
+            <h3>Nuestro proyecto</h3>
+            <p>Equipo 5 · Capa 5 — Sesión</p>
+            <p>Aprendiendo cómo se organiza la comunicación entre aplicaciones.</p>
+        </div>
+    </div>
+
+    <div class="pie-inferior">
+        <p>© 2026 ICKW Smart Campus. Proyecto educativo.</p>
+        <a href="#inicio">↑ Volver al inicio</a>
+    </div>
+</footer>
+
+
+</body>
+</html>
